@@ -109,11 +109,6 @@ _G.packer_plugins = {
     path = "/Users/p0m32kun/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  ["copilot.vim"] = {
-    loaded = true,
-    path = "/Users/p0m32kun/.local/share/nvim/site/pack/packer/start/copilot.vim",
-    url = "https://github.com/github/copilot.vim"
-  },
   ["dracula.nvim"] = {
     loaded = true,
     path = "/Users/p0m32kun/.local/share/nvim/site/pack/packer/start/dracula.nvim",
@@ -198,11 +193,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/p0m32kun/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
-  },
-  ["vim-go"] = {
-    loaded = true,
-    path = "/Users/p0m32kun/.local/share/nvim/site/pack/packer/start/vim-go",
-    url = "https://github.com/fatih/vim-go"
   },
   ["vim-vsnip"] = {
     loaded = true,

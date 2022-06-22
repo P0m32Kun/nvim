@@ -68,7 +68,8 @@ map("n", "<leader>cd", ":Lspsaga show_line_diagnostics<CR>", opt)
 map("n", "<leader>cc", "<cmd>lua require'lspsaga.diagnostic'.show_cursor_diagnostics()<CR>", opt)
 map("n", "[e", ":Lspsaga diagnostic_jump_next<CR>", opt)
 map("n", "]e", ":Lspsaga diagnostic_jump_prev<CR>", opt)
--- toggleterm ---------------------------------------------------
+
+-- toggleterm --------------------------------------------------
 local pluginKeys = {}
 -- 自定义 toggleterm 3个不同类型的命令行窗口
 -- <leader>ta 浮动

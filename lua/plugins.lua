@@ -25,15 +25,13 @@ return require('packer').startup(function(use)
   use 'L3MON4D3/LuaSnip'
   use 'saadparwaiz1/cmp_luasnip'
   -- copilot
-  use 'github/copilot.vim'
+  -- use 'github/copilot.vim'
   -- debug
   use 'puremourning/vimspector'
   --nvim-autopairs
   use 'windwp/nvim-autopairs'
   --neoformat
   use 'sbdchd/neoformat'
-  -- vim-go
-  use 'fatih/vim-go'
   -- lus-dev
   use 'folke/lua-dev.nvim'
   -- UI -----------------------------------------------------------------------
