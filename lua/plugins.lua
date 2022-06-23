@@ -11,7 +11,6 @@ return require('packer').startup(function(use)
   -- Configurations for Nvim LSP
   use 'neovim/nvim-lspconfig'
   use 'tami5/lspsaga.nvim'
-
   --audo complete
   use 'hrsh7th/cmp-nvim-lsp'
   use 'hrsh7th/cmp-buffer'
@@ -25,7 +24,7 @@ return require('packer').startup(function(use)
   use 'L3MON4D3/LuaSnip'
   use 'saadparwaiz1/cmp_luasnip'
   -- copilot
-  -- use 'github/copilot.vim'
+  use 'github/copilot.vim'
   -- debug
   use 'puremourning/vimspector'
   --nvim-autopairs

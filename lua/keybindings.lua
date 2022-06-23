@@ -55,21 +55,19 @@ map("n", "<leader>fh", ":Telescope help_tags<CR>", opt)
 vim.g.vimspector_enable_mappings = "HUMAN"
 
 -- lspsaga ------------------------------------------------------
-map("n", "gh", ":Lspsaga lsp_finder<CR>", opt)
-map("n", "<leader>ca", ":Lspsaga code_action<CR>", opt)
-map("v", "<leader>cc", ":<C-U>Lspsaga range_code_action<CR>", opt)
-map("n", "K", ":Lspsaga hover_doc<CR>", opt)
-map("n", "<C-f>", "<cmd>lua require('lspsaga.action').smart_scroll_with_saga(1)<CR>", opt)
-map("n", "<C-b>", "<cmd>lua require('lspsaga.action').smart_scroll_with_saga(-1)<CR>", opt)
-map("n", "gs", ":Lspsaga signature_help<CR>", opt)
 map("n", "gr", ":Lspsaga rename<CR>", opt)
 map("n", "gd", ":Lspsaga preview_definition<CR>", opt)
-map("n", "<leader>cd", ":Lspsaga show_line_diagnostics<CR>", opt)
-map("n", "<leader>cc", "<cmd>lua require'lspsaga.diagnostic'.show_cursor_diagnostics()<CR>", opt)
-map("n", "[e", ":Lspsaga diagnostic_jump_next<CR>", opt)
-map("n", "]e", ":Lspsaga diagnostic_jump_prev<CR>", opt)
-
--- toggleterm --------------------------------------------------
+map("n", "gx", "<cmd>Lspsaga code_action<cr>", opt)
+map("x", "gx", ":<c-u>Lspsaga range_code_action<cr>", opt)
+map("n", "K",  "<cmd>Lspsaga hover_doc<cr>", opt)
+map("n", "go", "<cmd>Lspsaga show_line_diagnostics<cr>", opt)
+map("n", "gj", "<cmd>Lspsaga diagnostic_jump_next<cr>", opt)
+map("n", "gk", "<cmd>Lspsaga diagnostic_jump_prev<cr>", opt)
+map("n", "<C-u>", "<cmd>lua require('lspsaga.action').smart_scroll_with_saga(-1, '<c-u>')<cr>", {})
+map("n", "<C-d>", "<cmd>lua require('lspsaga.action').smart_scroll_with_saga(1, '<c-d>')<cr>", {})
+-- hop ---------------------------------------------------------
+map('n', 'f', ":HopChar1<CR>", opt)
+-- toggletert --------------------------------------------------
 local pluginKeys = {}
 -- 自定义 toggleterm 3个不同类型的命令行窗口
 -- <leader>ta 浮动
