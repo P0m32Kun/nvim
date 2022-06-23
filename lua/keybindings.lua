@@ -56,7 +56,7 @@ vim.g.vimspector_enable_mappings = "HUMAN"
 
 -- lspsaga ------------------------------------------------------
 map("n", "gr", ":Lspsaga rename<CR>", opt)
-map("n", "gd", ":Lspsaga preview_definition<CR>", opt)
+map("n", "gd", "<cmd>lua vim.lsp.buf.definition()<CR>", opt)
 map("n", "gx", "<cmd>Lspsaga code_action<cr>", opt)
 map("x", "gx", ":<c-u>Lspsaga range_code_action<cr>", opt)
 map("n", "K",  "<cmd>Lspsaga hover_doc<cr>", opt)
