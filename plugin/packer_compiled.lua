@@ -189,6 +189,11 @@ _G.packer_plugins = {
     path = "/Users/p0m32kun/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["rust.vim"] = {
+    loaded = true,
+    path = "/Users/p0m32kun/.local/share/nvim/site/pack/packer/start/rust.vim",
+    url = "https://github.com/rust-lang/rust.vim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/p0m32kun/.local/share/nvim/site/pack/packer/start/telescope.nvim",

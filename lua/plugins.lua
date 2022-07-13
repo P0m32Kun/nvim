@@ -31,8 +31,10 @@ return require('packer').startup(function(use)
   use 'windwp/nvim-autopairs'
   --neoformat
   use 'sbdchd/neoformat'
-  -- lus-dev
+  -- lua-dev
   use 'folke/lua-dev.nvim'
+  -- rust
+  use 'rust-lang/rust.vim'
   -- UI -----------------------------------------------------------------------
 
   -- dracula scheme

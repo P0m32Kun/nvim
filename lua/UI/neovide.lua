@@ -11,5 +11,4 @@ if vim.g.neovide then
     vim.g.neovide_cursor_vfx_particle_density = 5.0
     vim.g.neovide_transparency = 0.7
     vim.g.neovide_no_idle = true
-    -- vim.g.neovide_macos_alt_is_meta = true
 end
